@@ -4,58 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        img{
-            width: 25%;
-            height: 25%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
     <title>Resume</title>
 </head>
 <body>
-    <div id='image'><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Russian_passport_photo.JPG" alt="My picture"></div>
-    <div id='header'>
-        <h2 id = 'name'>John Doe</h2>
-        <h3 id= 'email'><a href="#" target="_blank">bigmanjohn@gmail.com</a></h3>
+    <div id="back">
+            <div id='image'><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Russian_passport_photo.JPG" alt="My picture"></div>
+            <div id='header'>
+                <h2 id = 'name'>John Doe</h2>
+                <h3 id= 'email'><a href="#" target="_blank">bigmanjohn@gmail.com</a></h3>
+            </div>
+            <div class='career-objective'><p>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</p></div>
+            <div class='cv-highlights'>
+                <ul>
+                    <li>Currently Studying CSE in IUB</li>
+                    <li>Proficient in: html, css, javascript, bootstrap, php, c++, python</li>
+                    <li>People Person</li>
+                </ul>
+            </div>
+            <div class='educational-qualifications'>
+                <h3>Educational Qualifications:</h3>
+                <table class="greyGridTable">
+                    <tr>
+                        <th>Qualifications</th>
+                        <th>Board</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>O Levels</td>
+                        <td>IGCSE</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>A Levels</td>
+                        <td>IGCSE</td>
+                        <td>2016</td>
+                    </tr>
+                </table>
+            </div>
+            <div class='contact'>
+                <h3>Rate my CV?</h3>
+                <form action="">
+                    <input type="radio" name='0' value='0' checked>0
+                    <input type="radio" name='1' value='1' >1
+                    <input type="radio" name='2' value='2' >2
+                    <input type="radio" name='3' value='3' >3
+                    <input type="radio" name='4' value='4' >4
+                    <input type="radio" name='5' value='5' >5        </form>
+            </div>
     </div>
-    <div class='career-objective'><p>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</p></div>
-    <div class='cv-highlights'>
-        <ul>
-            <li>Currently Studying CSE in IUB</li>
-            <li>Proficient in: html, css, javascript, bootstrap, php, c++, python</li>
-            <li>People Person</li>
-        </ul>
-    </div>
-    <div class='educational-qualifications'>
-        <h3>Educational Qualifications:</h3>
-        <table border='1'>
-            <tr>
-                <th>Qualifications</th>
-                <th>Board</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>O Levels</td>
-                <td>IGCSE</td>
-                <td>2014</td>
-            </tr>
-            <tr>
-                <td>A Levels</td>
-                <td>IGCSE</td>
-                <td>2016</td>
-            </tr>
-        </table>
-    </div>
-    <div class='contact'>
-        <h3>Rate my CV?</h3>
-        <form action="">
-            <input type="radio" name='0' value='0' checked>0
-            <input type="radio" name='1' value='1' >1
-            <input type="radio" name='2' value='2' >2
-            <input type="radio" name='3' value='3' >3
-            <input type="radio" name='4' value='4' >4
-            <input type="radio" name='5' value='5' >5        </form>
-    </div>
+    
 
 </body>
 </html>
